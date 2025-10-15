@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(181, 248, 248);
+    }
+    body{
+        font-size: 3rem;
+    }
+    img{
+        width: 100%;             
+        height: 100%;
+        object-fit: cover;
+    }
+    .container{
+        height: 100vh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+        grid-auto-rows: 200px;
+    }
+    .one{
+        grid-column: span 2;
+        grid-row: span 2;     
+    }
+    .space1{
+        grid-row: span 5;
+    }
+    .two{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .space2{
+        grid-column: span 2;
+    }
+    .space3{
+         grid-column: span 2;
+    }
+    .three{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .four{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+   
+</style>
+<body>
+    <div class="container">
+        <div class="one"><img src="image1.jpg" alt=""></div>
+        <div class="space1"></div>
+        <div class="two"><img src="image2.jpg" alt=""></div>
+        <div class="space2"></div>
+        <div class="space3"></div>
+        <div class="three"><img src="image3.jpg" alt=""></div>
+        <div class="four"><img src="image4.jpg" alt=""></div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  nav{
+    background-color: black;
+    padding: 1rem;
+    width: 100%;
+  }
+  nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+  }
+  li{
+    display: grid;
+    color: white;
+    text-transform: uppercase
+  }
+  li:hover{
+    background-color: red;
+    border: 2px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .card{
+    padding-top: 40px;
+    margin-left: 60px;
+    border: none;
+  }
+  .card img h5 p{
+    display: flex;
+    align-self: baseline;
+  }
+</style>
+<body>
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Service</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+       <div class="card" style="width: 18rem;">
+      <img src="model1.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">MODEL NO:1</h5>
+        <p class="card-text">Imported By Thailand</p>
+      
+  </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+          <img src="model2.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">MODEL NO:2</h5>
+        <p class="card-text">Imported By US</p>
+  </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+          <img src="model3.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">MODEL NO:3</h5>
+        <p class="card-text">Imported By China</p>
+  </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+   <img src="model4.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">MODEL NO:4</h5>
+        <p class="card-text">Imported By Korean</p>
+  </div>
+</div>
+</body>
+</html>
+
+
+
